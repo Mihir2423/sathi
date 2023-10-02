@@ -3,7 +3,7 @@ import { ScrollView, View, Text } from "react-native";
 import CustomSafeAreaView from "../../components/common/SafeAreaView";
 import CustomView from "../../components/common/View";
 
-const ProfileScreen = () => {
+const CalendarScreen = () => {
   return (
     <CustomSafeAreaView>
       <CustomView>
@@ -15,7 +15,7 @@ const ProfileScreen = () => {
           showsVerticalScrollIndicator={false}
         >
           <View>
-            <Text>Hello Profile</Text>
+            <Text>Hello Calendar</Text>
           </View>
         </ScrollView>
       </CustomView>
@@ -23,4 +23,4 @@ const ProfileScreen = () => {
   );
 };
 
-export default ProfileScreen;
+export default CalendarScreen;
